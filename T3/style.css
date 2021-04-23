@@ -1,0 +1,52 @@
+p, ul{
+    border
+    :
+    2px solid purple
+    ;
+    padding
+    : .5em
+    ;
+	font-family: 'Sonsie One', fantasy ;
+	background-color: #EDD4FF;
+    }
+    
+
+    .block
+    , li
+    {
+    border
+    :
+    2px solid blue
+    ;
+    padding
+    : .5em
+    ;
+    }
+
+
+    ul
+    {
+    display
+    : flex
+    ;
+    list-style
+    : none
+    ;
+    }
+    li
+    {
+		background-color: white;
+    margin
+    :
+    0px 10px
+    ;
+    }
+
+    
+    .block
+    {
+		background-color: white;
+    display
+    : block
+    ;
+    }

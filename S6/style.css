@@ -1,0 +1,81 @@
+div{
+	
+    width:350px;
+    height:200px;
+    margin:100px 0px 0px 100px;
+    background-color: green;
+	
+	-webkit-animation: 'moveee' 3s linear infinite;
+	animation: 'moveee' 3s linear infinite;
+}
+    
+    
+img{
+    width:100px;
+    height:100px;
+    margin:-40px 0px 0px 115px;
+	
+	
+}
+
+img{
+	
+	-webkit-animation: 'moveee' 3s linear infinite;
+	animation: 'moveee' 3s linear infinite;
+    -webkit-animation: 'rotate1' 3s linear infinite;
+    animation: 'rotate1' 3s linear infinite;
+}   
+
+@-webkit-keyframes rotate1{
+	
+   0%{
+    transform:  translateX(10px)	rotate(0deg);
+  }
+  	 	  
+  50%{
+    transform:  translateX(100px)	rotate(360deg);
+  }
+  100%{
+    transform:  translateX(10px)	rotate(0deg);
+  }
+	
+}
+
+@keyframes rotate1{
+	 	  0%{
+    transform:  translateX(10px)	rotate(0deg);
+  }
+  
+  	 	 50%{
+    transform:  translateX(100px)	rotate(360deg);
+  }
+  100%{
+    transform:  translateX(10px)	rotate(0deg);
+  }
+	
+	
+}
+
+
+@-webkit-keyframes rotate1{
+  0%{
+    transform:  translateX(10px);
+  }
+    50%{
+    transform:  translateX(100px);
+  }
+  100%{
+    transform:  translateX(10px);
+  }
+}
+@keyframes moveee{
+  0%{
+    transform:  translateX(10px);
+  }
+   50%{
+    transform:  translateX(100px);
+  }
+  100%{
+    transform:  translateX(10px);
+  }
+}
